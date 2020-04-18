@@ -12,6 +12,10 @@
         font-family: 'WorkSans';
         src: url('../font/WorkSans-VariableFont_wght.ttf');
     }
+    @font-face{
+        font-family: 'Inter';
+        src: url('../font/Inter-VariableFont_slnt,wght.ttf')
+    }
 
 nav {
     display: flex;
@@ -38,7 +42,7 @@ nav {
 }
 
 #feminism h1 {
-    font-family: 'Playfair Display';
+    font-family: 'Inter';
     color: rgb(247, 117, 203);
     font-size:2.5em;
     transition: color 2.0s;
@@ -52,26 +56,31 @@ nav {
 }
 
 #imgmenu{
-    background-image: url(../img/imagem1.jpg);
+    background-image: url(../img/imagem1.jpeg);
     background-size: cover;
     background-position: center;
-    padding: 100px 0px 100px 0px;
     margin: 5px 0px;
 }
+
 #imgmenu2{
-    background-image: url(../img/imagem4.png);
+    background-image: url(../img/img2.jpeg);
     background-size: cover;
     background-position: center;
-    padding: 100px 0px 100px 0px;
      margin: 5px 0px;
 }
 #imgmenu3{
-    background-image: url(../img/imagem3.jpg);
+    background-image: url(../img/imagem3.jpeg);
     background-size: cover;
     background-position: center;
-    padding: 100px 0px 100px 0px;
      margin: 5px 0px;
 }
+#imgmenu4{
+    background-image: url(../img/img4.jpeg);
+    background-size: cover;
+    background-position: center;
+     margin: 5px 0px;
+}
+
 #imgliteratura{
      background-image: url(../img/mulheresliteratura.jpg);
     background-size: cover;
@@ -161,7 +170,7 @@ nav {
     
 }
 #textindicacao h1{
-    font-family: 'WorkSans';
+    font-family: 'Inter';
     color: black;
     text-align: left;
     font-size: 2.0;
@@ -184,7 +193,7 @@ nav {
     text-align: left;
 }
 #textfilmes h1{
-    font-family: 'WorkSans';
+    font-family: 'Inter';
     color: black;
     text-align: left;
     font-size: 2.0;
@@ -207,7 +216,7 @@ nav {
     text-align: left;
 }
 #textnoticias h1{
-    font-family: 'WorkSans';
+    font-family: 'Inter';
     color: black;
     text-align: left;
     font-size: 2.0;
@@ -224,7 +233,7 @@ nav {
     font-size: 1.0 em;
 }
 #instagram h1{
-    font-family: 'WorkSans';
+    font-family: 'Inter';
     color: black;
     text-align: left;
     font-size: 2.0;
